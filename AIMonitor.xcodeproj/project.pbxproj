@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07529CFE41C3843D6E77793D /* UsageEndpointResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA486C6FAFB23030F12A537 /* UsageEndpointResponse.swift */; };
+		07D53CDB8B4E297AC3FCF50B /* AIMonitorWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 39D5D695C019963D237D3802 /* AIMonitorWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		09D76D925CEE36F3DDBC89D7 /* LimitBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC1E17B991A19E6E1FD0C2 /* LimitBar.swift */; };
+		17B48536D533EC1F448AFD9B /* AIMonitorWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE83CE6C18AC63E6BB40A17 /* AIMonitorWidget.swift */; };
+		245DEF179EFCE35A8D873E1F /* UsageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7893E4FFCC0AD4A84755729C /* UsageService.swift */; };
+		26180A07937AB6E2FBB5774D /* TokenUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151A4FFA35CA0537F90666D8 /* TokenUsage.swift */; };
+		380047785BBDE92154676358 /* OAuthSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF38FFFB14BD90F8B0B02475 /* OAuthSession.swift */; };
+		3AC512CA0FB51AD92AA7E986 /* OAuthCredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595FAB430C31CB97A13E5358 /* OAuthCredentialStore.swift */; };
+		3CA4A035C0AE2486A4298B00 /* OAuthSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF38FFFB14BD90F8B0B02475 /* OAuthSession.swift */; };
+		3D5D5948C7B8656B1A9A3476 /* UsageEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5841B6F6C9C14C59917D3638 /* UsageEndpoint.swift */; };
+		46ABF7AC6A5F0D5D05EBE91B /* AnthropicOAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE0493DA07F82B2CA74BD2F /* AnthropicOAuth.swift */; };
+		5072C7B0F7F8770E7A4B39ED /* TokenUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151A4FFA35CA0537F90666D8 /* TokenUsage.swift */; };
+		54CA7160964853197A2E5D9C /* UsageEndpointResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA486C6FAFB23030F12A537 /* UsageEndpointResponse.swift */; };
+		56C461EDDDF3D0200EC4FBB7 /* ClaudeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F4900F68448FCFE330BDB /* ClaudeStyle.swift */; };
+		57EC682548E5D64A3DA7346D /* UsageFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E492534BA82CA2AE587AA82 /* UsageFormatting.swift */; };
+		61B497BC432326FB7DBC1490 /* TokenPricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873E65447F2C4F2203520C3 /* TokenPricing.swift */; };
+		66F25B82255B10C6716C88C9 /* ClaudeCodeLogParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C58AB1EB006B9D2DD733DB /* ClaudeCodeLogParser.swift */; };
+		69CF6A1B4841D816254453C7 /* ClaudeCodeVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AEC35DD76C1363351C90A0 /* ClaudeCodeVersion.swift */; };
+		6A97BD48C9964298B62EA373 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421934FF5382601B0ACFBCB7 /* SharedStore.swift */; };
+		70A3B858A9D3B2DE2058B8A5 /* OAuthCredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595FAB430C31CB97A13E5358 /* OAuthCredentialStore.swift */; };
+		7B5A1DE160C607F06069C492 /* UsageFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E492534BA82CA2AE587AA82 /* UsageFormatting.swift */; };
+		7BD4160279281B8BBD53B1E4 /* UsageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC532853C73332CD19CEE41 /* UsageModels.swift */; };
+		7D227FDD4606D3983334EAD2 /* ClaudeCodeVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AEC35DD76C1363351C90A0 /* ClaudeCodeVersion.swift */; };
+		8084E9235403154256B46707 /* AIMonitorWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E1EA9254A4B43DAA513D07 /* AIMonitorWidgetBundle.swift */; };
+		834655881C12A3B27990C2D6 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421934FF5382601B0ACFBCB7 /* SharedStore.swift */; };
+		926F208D8C7F34393EBE4B53 /* TokenPricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873E65447F2C4F2203520C3 /* TokenPricing.swift */; };
+		9AC634F952D3601FC08D0FA9 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29CFDD785DBFF1D082D9E8 /* DashboardView.swift */; };
+		9E02A3B270272EDDC185BEA2 /* MenuBarRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE42FC3E7D353AE5113374B /* MenuBarRootView.swift */; };
+		9EFD6F9D105694E563482F1A /* UsageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A10CFA81925A97B49E6FE /* UsageStore.swift */; };
+		A21A1FED4F7B6ACBD236ABB1 /* AnthropicOAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE0493DA07F82B2CA74BD2F /* AnthropicOAuth.swift */; };
+		AF03573ACA208CBF23810CEC /* UsageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7893E4FFCC0AD4A84755729C /* UsageService.swift */; };
+		B75D7C58152802CE8C4F72F3 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29CFDD785DBFF1D082D9E8 /* DashboardView.swift */; };
+		CB35E1D8D95120932EFB3808 /* LimitBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC1E17B991A19E6E1FD0C2 /* LimitBar.swift */; };
+		F03C5CBA711E62453ED00DD2 /* UsageEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5841B6F6C9C14C59917D3638 /* UsageEndpoint.swift */; };
+		F0ED00A839EAB37A24C4F04D /* ClaudeCodeLogParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C58AB1EB006B9D2DD733DB /* ClaudeCodeLogParser.swift */; };
+		F12D686093027A48B9DD515E /* ClaudeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F4900F68448FCFE330BDB /* ClaudeStyle.swift */; };
+		F4025599B71E06A3BC2A3987 /* UsageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC532853C73332CD19CEE41 /* UsageModels.swift */; };
+		FBAD2CA6FEF3FD099115D2CE /* AIMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB1F96046994F315C33B26 /* AIMonitorApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5C64AA2B94EC4FBCDA5CA32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB03FAE35B98CB54DCC7B70E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F4C83894CCCAA70DB0AAD9B;
+			remoteInfo = AIMonitorWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BF7EF9E90F9858620D702C6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA32CDE9736C76E47899DC5A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B3E57FEC05F79E19C610AE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstSubfolderSpec = 13;
+			files = (
+				07D53CDB8B4E297AC3FCF50B /* AIMonitorWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		151A4FFA35CA0537F90666D8 /* TokenUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenUsage.swift; sourceTree = "<group>"; };
+		1E29CFDD785DBFF1D082D9E8 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		1EAFB9E24FB81A5867E26AF4 /* AIMonitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AIMonitor-Info.plist"; sourceTree = "<group>"; };
+		2CE83CE6C18AC63E6BB40A17 /* AIMonitorWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIMonitorWidget.swift; sourceTree = "<group>"; };
+		39D5D695C019963D237D3802 /* AIMonitorWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AIMonitorWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		421934FF5382601B0ACFBCB7 /* SharedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedStore.swift; sourceTree = "<group>"; };
+		46AEC35DD76C1363351C90A0 /* ClaudeCodeVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeCodeVersion.swift; sourceTree = "<group>"; };
+		4AE42FC3E7D353AE5113374B /* MenuBarRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarRootView.swift; sourceTree = "<group>"; };
+		4E492534BA82CA2AE587AA82 /* UsageFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageFormatting.swift; sourceTree = "<group>"; };
+		4FA486C6FAFB23030F12A537 /* UsageEndpointResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageEndpointResponse.swift; sourceTree = "<group>"; };
+		5841B6F6C9C14C59917D3638 /* UsageEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageEndpoint.swift; sourceTree = "<group>"; };
+		595FAB430C31CB97A13E5358 /* OAuthCredentialStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthCredentialStore.swift; sourceTree = "<group>"; };
+		6873E65447F2C4F2203520C3 /* TokenPricing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenPricing.swift; sourceTree = "<group>"; };
+		7893E4FFCC0AD4A84755729C /* UsageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageService.swift; sourceTree = "<group>"; };
+		83C0C222690B9B3B97216E0B /* AIMonitorWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AIMonitorWidget.entitlements; sourceTree = "<group>"; };
+		86E1EA9254A4B43DAA513D07 /* AIMonitorWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIMonitorWidgetBundle.swift; sourceTree = "<group>"; };
+		89686CCFDD3773CD9DB5D33C /* AIMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC532853C73332CD19CEE41 /* UsageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageModels.swift; sourceTree = "<group>"; };
+		A34A10CFA81925A97B49E6FE /* UsageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageStore.swift; sourceTree = "<group>"; };
+		A7C58AB1EB006B9D2DD733DB /* ClaudeCodeLogParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeCodeLogParser.swift; sourceTree = "<group>"; };
+		ACEB1F96046994F315C33B26 /* AIMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIMonitorApp.swift; sourceTree = "<group>"; };
+		AF38FFFB14BD90F8B0B02475 /* OAuthSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthSession.swift; sourceTree = "<group>"; };
+		B033C27593FFAE1551FB2BDD /* AIMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AIMonitor.entitlements; sourceTree = "<group>"; };
+		B0BC1E17B991A19E6E1FD0C2 /* LimitBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitBar.swift; sourceTree = "<group>"; };
+		D0C2D1CED542AB174DB233D8 /* AIMonitorWidget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AIMonitorWidget-Info.plist"; sourceTree = "<group>"; };
+		E60F4900F68448FCFE330BDB /* ClaudeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeStyle.swift; sourceTree = "<group>"; };
+		FBE0493DA07F82B2CA74BD2F /* AnthropicOAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnthropicOAuth.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		059094DEE406CBC3B8791C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD372AA0346D3B0E83CFEA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DDD8BE45EC3D06006583987 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				83C0C222690B9B3B97216E0B /* AIMonitorWidget.entitlements */,
+				2CE83CE6C18AC63E6BB40A17 /* AIMonitorWidget.swift */,
+				86E1EA9254A4B43DAA513D07 /* AIMonitorWidgetBundle.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		0ED18C59A5D32D7B9FA19DA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				151A4FFA35CA0537F90666D8 /* TokenUsage.swift */,
+				8EC532853C73332CD19CEE41 /* UsageModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		181C0A498495EB366969D41B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5E980826AC57BCC743D43A97 /* UI */,
+				B033C27593FFAE1551FB2BDD /* AIMonitor.entitlements */,
+				ACEB1F96046994F315C33B26 /* AIMonitorApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4717EDF73D7F4A816FA70ED5 = {
+			isa = PBXGroup;
+			children = (
+				FEF0C0EE5DEA3A4D5453AE33 /* Products */,
+				A15F55DC90F3DED7582B2B7F /* Project */,
+			);
+			sourceTree = "<group>";
+		};
+		5723CCFDE06B5B72E9BC8B9B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FBE0493DA07F82B2CA74BD2F /* AnthropicOAuth.swift */,
+				A7C58AB1EB006B9D2DD733DB /* ClaudeCodeLogParser.swift */,
+				46AEC35DD76C1363351C90A0 /* ClaudeCodeVersion.swift */,
+				595FAB430C31CB97A13E5358 /* OAuthCredentialStore.swift */,
+				AF38FFFB14BD90F8B0B02475 /* OAuthSession.swift */,
+				421934FF5382601B0ACFBCB7 /* SharedStore.swift */,
+				6873E65447F2C4F2203520C3 /* TokenPricing.swift */,
+				5841B6F6C9C14C59917D3638 /* UsageEndpoint.swift */,
+				4FA486C6FAFB23030F12A537 /* UsageEndpointResponse.swift */,
+				7893E4FFCC0AD4A84755729C /* UsageService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5E980826AC57BCC743D43A97 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4AE42FC3E7D353AE5113374B /* MenuBarRootView.swift */,
+				A34A10CFA81925A97B49E6FE /* UsageStore.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A15F55DC90F3DED7582B2B7F /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				FF09A87CA9695AF2FDA0080E /* Derived */,
+				B9B50F91F5AD074B79430BD5 /* Shared */,
+				181C0A498495EB366969D41B /* Sources */,
+				0DDD8BE45EC3D06006583987 /* Widget */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		B9B50F91F5AD074B79430BD5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5723CCFDE06B5B72E9BC8B9B /* Data */,
+				0ED18C59A5D32D7B9FA19DA6 /* Model */,
+				CBC6A603E4919C4B599932C0 /* UI */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CBC6A603E4919C4B599932C0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E60F4900F68448FCFE330BDB /* ClaudeStyle.swift */,
+				1E29CFDD785DBFF1D082D9E8 /* DashboardView.swift */,
+				B0BC1E17B991A19E6E1FD0C2 /* LimitBar.swift */,
+				4E492534BA82CA2AE587AA82 /* UsageFormatting.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E408A28CC943D3F14AFFE8F0 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				1EAFB9E24FB81A5867E26AF4 /* AIMonitor-Info.plist */,
+				D0C2D1CED542AB174DB233D8 /* AIMonitorWidget-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		FEF0C0EE5DEA3A4D5453AE33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89686CCFDD3773CD9DB5D33C /* AIMonitor.app */,
+				39D5D695C019963D237D3802 /* AIMonitorWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF09A87CA9695AF2FDA0080E /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				E408A28CC943D3F14AFFE8F0 /* InfoPlists */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FEECB79064F69FDD78B9045 /* AIMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38FFF50219943AB7C656AD5 /* Build configuration list for PBXNativeTarget "AIMonitor" */;
+			buildPhases = (
+				55F614949FB1971F63F32410 /* Sources */,
+				686F98332AC41D47DFAA181B /* Resources */,
+				E1B3E57FEC05F79E19C610AE /* Embed Foundation Extensions */,
+				AD372AA0346D3B0E83CFEA01 /* Frameworks */,
+				DA32CDE9736C76E47899DC5A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97F59EFB7644471274F21444 /* PBXTargetDependency */,
+			);
+			name = AIMonitor;
+			packageProductDependencies = (
+			);
+			productName = AIMonitor;
+			productReference = 89686CCFDD3773CD9DB5D33C /* AIMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F4C83894CCCAA70DB0AAD9B /* AIMonitorWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E888C2861964628BE5ECBD49 /* Build configuration list for PBXNativeTarget "AIMonitorWidget" */;
+			buildPhases = (
+				70D5BF0D5BD3865FBC1A5E0D /* Sources */,
+				2332D53264E978EB01C14DA8 /* Resources */,
+				059094DEE406CBC3B8791C79 /* Frameworks */,
+				8BF7EF9E90F9858620D702C6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AIMonitorWidget;
+			packageProductDependencies = (
+			);
+			productName = AIMonitorWidget;
+			productReference = 39D5D695C019963D237D3802 /* AIMonitorWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB03FAE35B98CB54DCC7B70E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 5E77F2969376847A72C07C97 /* Build configuration list for PBXProject "AIMonitor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4717EDF73D7F4A816FA70ED5;
+			productRefGroup = FEF0C0EE5DEA3A4D5453AE33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FEECB79064F69FDD78B9045 /* AIMonitor */,
+				8F4C83894CCCAA70DB0AAD9B /* AIMonitorWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2332D53264E978EB01C14DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		686F98332AC41D47DFAA181B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F614949FB1971F63F32410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21A1FED4F7B6ACBD236ABB1 /* AnthropicOAuth.swift in Sources */,
+				F0ED00A839EAB37A24C4F04D /* ClaudeCodeLogParser.swift in Sources */,
+				7D227FDD4606D3983334EAD2 /* ClaudeCodeVersion.swift in Sources */,
+				70A3B858A9D3B2DE2058B8A5 /* OAuthCredentialStore.swift in Sources */,
+				380047785BBDE92154676358 /* OAuthSession.swift in Sources */,
+				6A97BD48C9964298B62EA373 /* SharedStore.swift in Sources */,
+				926F208D8C7F34393EBE4B53 /* TokenPricing.swift in Sources */,
+				F03C5CBA711E62453ED00DD2 /* UsageEndpoint.swift in Sources */,
+				07529CFE41C3843D6E77793D /* UsageEndpointResponse.swift in Sources */,
+				AF03573ACA208CBF23810CEC /* UsageService.swift in Sources */,
+				5072C7B0F7F8770E7A4B39ED /* TokenUsage.swift in Sources */,
+				7BD4160279281B8BBD53B1E4 /* UsageModels.swift in Sources */,
+				56C461EDDDF3D0200EC4FBB7 /* ClaudeStyle.swift in Sources */,
+				B75D7C58152802CE8C4F72F3 /* DashboardView.swift in Sources */,
+				CB35E1D8D95120932EFB3808 /* LimitBar.swift in Sources */,
+				57EC682548E5D64A3DA7346D /* UsageFormatting.swift in Sources */,
+				FBAD2CA6FEF3FD099115D2CE /* AIMonitorApp.swift in Sources */,
+				9E02A3B270272EDDC185BEA2 /* MenuBarRootView.swift in Sources */,
+				9EFD6F9D105694E563482F1A /* UsageStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D5BF0D5BD3865FBC1A5E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46ABF7AC6A5F0D5D05EBE91B /* AnthropicOAuth.swift in Sources */,
+				66F25B82255B10C6716C88C9 /* ClaudeCodeLogParser.swift in Sources */,
+				69CF6A1B4841D816254453C7 /* ClaudeCodeVersion.swift in Sources */,
+				3AC512CA0FB51AD92AA7E986 /* OAuthCredentialStore.swift in Sources */,
+				3CA4A035C0AE2486A4298B00 /* OAuthSession.swift in Sources */,
+				834655881C12A3B27990C2D6 /* SharedStore.swift in Sources */,
+				61B497BC432326FB7DBC1490 /* TokenPricing.swift in Sources */,
+				3D5D5948C7B8656B1A9A3476 /* UsageEndpoint.swift in Sources */,
+				54CA7160964853197A2E5D9C /* UsageEndpointResponse.swift in Sources */,
+				245DEF179EFCE35A8D873E1F /* UsageService.swift in Sources */,
+				26180A07937AB6E2FBB5774D /* TokenUsage.swift in Sources */,
+				F4025599B71E06A3BC2A3987 /* UsageModels.swift in Sources */,
+				F12D686093027A48B9DD515E /* ClaudeStyle.swift in Sources */,
+				9AC634F952D3601FC08D0FA9 /* DashboardView.swift in Sources */,
+				09D76D925CEE36F3DDBC89D7 /* LimitBar.swift in Sources */,
+				7B5A1DE160C607F06069C492 /* UsageFormatting.swift in Sources */,
+				17B48536D533EC1F448AFD9B /* AIMonitorWidget.swift in Sources */,
+				8084E9235403154256B46707 /* AIMonitorWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97F59EFB7644471274F21444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AIMonitorWidget;
+			target = 8F4C83894CCCAA70DB0AAD9B /* AIMonitorWidget */;
+			targetProxy = E5C64AA2B94EC4FBCDA5CA32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0597312D84F9375198FB930F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0687D81E15999A67EA476913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sources/AIMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/AIMonitor-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aimonitor.app;
+				PRODUCT_NAME = AIMonitor;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+			};
+			name = Debug;
+		};
+		1C2A94ABBE99BCB8A73BCD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54F2719C431CADE59D7656D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sources/AIMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/AIMonitor-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aimonitor.app;
+				PRODUCT_NAME = AIMonitor;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5;
+			};
+			name = Release;
+		};
+		BC5B44EA4D1F48EBB7A1B53D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/AIMonitorWidget.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "Derived/InfoPlists/AIMonitorWidget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aimonitor.app.widget;
+				PRODUCT_NAME = AIMonitorWidget;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5;
+			};
+			name = Release;
+		};
+		FF366F14CAD5575061AEA1F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/AIMonitorWidget.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "Derived/InfoPlists/AIMonitorWidget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aimonitor.app.widget;
+				PRODUCT_NAME = AIMonitorWidget;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E77F2969376847A72C07C97 /* Build configuration list for PBXProject "AIMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0597312D84F9375198FB930F /* Debug */,
+				1C2A94ABBE99BCB8A73BCD90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38FFF50219943AB7C656AD5 /* Build configuration list for PBXNativeTarget "AIMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0687D81E15999A67EA476913 /* Debug */,
+				54F2719C431CADE59D7656D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E888C2861964628BE5ECBD49 /* Build configuration list for PBXNativeTarget "AIMonitorWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF366F14CAD5575061AEA1F4 /* Debug */,
+				BC5B44EA4D1F48EBB7A1B53D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB03FAE35B98CB54DCC7B70E /* Project object */;
+}

@@ -1,0 +1,16 @@
+# Tuist
+# The generated project (*.xcodeproj/*.xcworkspace) and Derived/ ARE committed so the
+# app can be built/run without `tuist generate`. Regenerate with `tuist generate` after
+# adding/moving/renaming/deleting files, then commit the result.
+Tuist/.build/
+.tuist-version
+
+# Xcode / build
+DerivedData/
+build/
+.build/
+*.xcuserstate
+xcuserdata/
+
+# macOS
+.DS_Store

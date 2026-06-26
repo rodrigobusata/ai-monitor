@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- App extensions on macOS must be sandboxed, or pkd silently refuses to
+         register the widget and it never appears in the gallery. -->
+    <key>com.apple.security.app-sandbox</key>
+    <true/>
+    <!-- Shares the latest usage snapshot with the host app. The sandboxed widget
+         can't fetch for itself, so it reads what the host wrote here. -->
+    <key>com.apple.security.application-groups</key>
+    <array>
+        <string>group.com.aimonitor.app</string>
+    </array>
+</dict>
+</plist>
